@@ -47,8 +47,8 @@ export default function TeacherCoursesPage() {
 
   return (
     <Container className={styles.page} maxWidth={false} disableGutters>
-      <Typography className={styles.sectionTitle} mt={4} mb={3}>
-        My Courses
+      <Typography variant="h4" component="h1" className={styles.sectionTitle} mt={4} mb={3}>
+        <b>My Courses</b>
       </Typography>
 
       {/* Create Course */}

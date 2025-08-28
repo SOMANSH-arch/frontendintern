@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #fff; /* plain white background */
+  background: linear-gradient(160deg, #111, #222); /* black/gray gradient card */
   color: white;
 }
 

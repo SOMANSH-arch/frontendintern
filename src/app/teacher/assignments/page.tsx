@@ -70,8 +70,8 @@ export default function TeacherAssignmentsPage() {
 
   return (
     <Container className={styles.page} maxWidth={false} disableGutters>
-      <Typography className={styles.sectionTitle} mt={4} mb={3}>
-        Assignments
+      <Typography variant="h4" component="h1" className={styles.sectionTitle} mt={4} mb={3}>
+        <b>Assignments</b>
       </Typography>
 
       {/* Select Course */}

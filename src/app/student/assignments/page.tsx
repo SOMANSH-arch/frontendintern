@@ -78,7 +78,7 @@ export default function StudentAssignmentsPage() {
 
   return (
     <Container className={styles.container} maxWidth={false} disableGutters>
-      <Typography className={styles.title}>Assignments</Typography>
+      <Typography variant="h4" component="h1" className={styles.title}><b>Assignments</b></Typography>
 
       {/* Course Selector */}
       <Box mb={3}>

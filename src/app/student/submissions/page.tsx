@@ -33,8 +33,9 @@ export default function StudentSubmissionsPage() {
 
   return (
     <Container className={styles.container} maxWidth={false} disableGutters>
-      <Typography variant="h4" className={styles.title}>
-        My Submissions
+      <Typography variant="h4" component="h1" className={styles.title}>
+        <b>My Submissions</b>
+        
       </Typography>
 
       {submissions.length === 0 ? (

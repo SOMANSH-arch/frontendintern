@@ -19,7 +19,7 @@ export default function RegisterPage() {
   };
 
   return (
-    <Container maxWidth="sm" className={styles.container}>
+    <Container className={styles.container} maxWidth={false} disableGutters>
       <Box className={styles.card} display="grid" gap={2}>
         <Typography variant="h5" className={styles.title}>
           Create Account

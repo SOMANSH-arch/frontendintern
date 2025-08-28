@@ -43,8 +43,10 @@ export default function StudentCoursesPage() {
   return (
     <Container className={styles.page} maxWidth={false} disableGutters>
       {/* Available Courses */}
-      <Typography className={styles.sectionTitle} mt={4} mb={2}>
-        AVAILABLE COURSES
+      <Typography variant="h4" component="h1" className={styles.sectionTitle} mt={4} mb={2}>
+        <b>AVAILABLE COURSES</b>
+        
+        
       </Typography>
       <List>
         {publishedCourses.map(course => (
@@ -69,8 +71,9 @@ export default function StudentCoursesPage() {
       </List>
 
       {/* Enrolled Courses */}
-      <Typography className={styles.sectionTitle} mt={6} mb={2}>
-        MY ENROLLED COURSES
+      <Typography variant="h4" component="h1" className={styles.sectionTitle} mt={6} mb={2}>
+        <b>MY ENROLLED COURSES</b>
+        
       </Typography>
       <List>
         {enrolledCourses.map(course => (
